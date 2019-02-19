@@ -1,0 +1,68 @@
+{
+    "ID": 1,
+    "Name": "通道名",
+    "Port": {
+        "Portname": "tty01",
+        "Bps": 9600
+    },
+    "Potocol": {
+        "Name": "规约111",
+        "Data": {
+            "nihao": "hello"
+        }
+    },
+    "Dev": [{
+        "ID": 1,
+        "Name": "设备01",
+        "Time": 12,
+        "Channel": "所属通道",
+        "Data": {
+            "Ycs": [{
+                "ID": 1,
+                "Name": "遥测点01",
+                "Time": 4,
+                "Xnum": 0.01,
+                "Data": {
+                    "Hello": "你好"
+                }
+            }],
+            "Yxs": [{
+                "ID": 1,
+                "Name": "遥信点01",
+                "Time": 5,
+                "Xnum": 0.02,
+                "Data": {
+                    "Hello": "你好"
+                }
+
+            }],
+            "Yms": [{
+                "ID": 1,
+                "Name": "遥脉点01",
+                "Time": 6,
+                "Xnum": 0.03,
+                "Data": {
+                    "Hello": "你好"
+                }
+            }],
+            "Yks": [{
+                "ID": 1,
+                "Name": "遥控点01",
+                "Time": 7,
+                "Xnum": 0.04,
+                "Data": {
+                    "Hello": "你好"
+                }
+            }],
+            "Yts": [{
+                "ID": 1,
+                "Name": "遥调点01",
+                "Time": 8,
+                "Xnum": 0.05,
+                "Data": {
+                    "Hello": "你好"
+                }
+            }]
+        }
+    }]
+}

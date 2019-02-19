@@ -1,0 +1,503 @@
+{
+	"ID": 4,
+	"Name": "MG2130com4",
+	"Crc": "低",
+	"Source": true,
+	"Port": {
+		"Ptype": "com",
+		"Conntype": "",
+		"Name": "/dev/ttyS3",
+		"Baud": 9600,
+		"Size": 1024,
+		"ReadTimeout": 100,
+		"Parity": "N",
+		"StopBits": 2,
+		"Channel": "",
+		"Ip": "",
+		"Portnum": ""
+	},
+	"Potocol": {
+		"Name": "MODBUS",
+		"Data": null
+	},
+	"Device": [
+		{
+			"ID": 1,
+			"Tnumber": 13,
+			"Name": "光伏回路2130",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "MG2130com4",
+			"ChannelID": 4,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "光伏系统__负荷回路A相电流Ia",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "7",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "光伏系统__负荷回路B相电流Ib",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "8",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "光伏系统__负荷回路C相电流Ic",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "9",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "光伏系统__负荷回路有功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "10",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "光伏系统__负荷回路无功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "11",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "光伏系统__负荷回路功率因数",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "光伏系统__负荷回路频率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 8,
+					"Name": "光伏系统__负荷回路开关合闸",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "光伏系统__负荷回路孤网运行",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "光伏系统__负荷回路保护标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "光伏系统__负荷回路告警标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [],
+			"Yts": []
+		},
+		{
+			"ID": 2,
+			"Tnumber": 14,
+			"Name": "柴油机2130",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "MG2130com4",
+			"ChannelID": 4,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "柴油发电机机__负荷回路A相电流Ia",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "7",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "柴油发电机机__负荷回路B相电流Ib",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "8",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "柴油发电机机__负荷回路C相电流Ic",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "9",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "柴油发电机机__负荷回路有功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "10",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "柴油发电机机__负荷回路无功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "11",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "柴油发电机机__负荷回路功率因数",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "柴油发电机机__负荷回路频率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 8,
+					"Name": "柴油发电机机__负荷回路开关合闸",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "柴油发电机机__负荷回路孤网运行",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "柴油发电机机__负荷回路保护标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "柴油发电机机__负荷回路告警标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [],
+			"Yts": []
+		},
+		{
+			"ID": 3,
+			"Tnumber": 15,
+			"Name": "device15",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "MG2130com4",
+			"ChannelID": 4,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "稳定控制器__负荷回路A相电流Ia",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "7",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "稳定控制器__负荷回路B相电流Ib",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "8",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "稳定控制器__负荷回路C相电流Ic",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "9",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "稳定控制器__负荷回路有功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "10",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "稳定控制器__负荷回路无功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "11",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "稳定控制器__负荷回路功率因数",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "稳定控制器__负荷回路频率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 8,
+					"Name": "稳定控制器__负荷回路开关合闸",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "稳定控制器__负荷回路孤网运行",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "稳定控制器__负荷回路保护标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "稳定控制器__负荷回路告警标志",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "2"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [],
+			"Yts": []
+		}
+	],
+	"Uptable": null
+}

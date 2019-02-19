@@ -1,0 +1,5825 @@
+{
+	"ID": 2,
+	"Name": "PLClan2",
+	"Source": true,
+	"Port": {
+		"Ptype": "tcp",
+		"Conntype": "客户端",
+		"Name": "",
+		"Baud": 0,
+		"Size": 0,
+		"ReadTimeout": 0,
+		"Parity": "",
+		"StopBits": 0,
+		"Channel": "",
+		"Ip": "192.168.2.20",
+		"Portnum": "502"
+	},
+	"Potocol": {
+		"Name": "MODBUSTCP",
+		"Data": null
+	},
+	"Device": [
+		{
+			"ID": 1,
+			"Tnumber": 30,
+			"Name": "PLC",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "PLClan2",
+			"ChannelID": 2,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "PCC-A相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12916",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "PCC-B相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12918",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "PCC-C相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12920",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "PCC-A相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12922",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "PCC-B相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12924",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "PCC-C相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12926",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "PCC-Uab线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12928",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "PCC-Ubc线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12930",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "PCC-Uca线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12932",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "PCC-P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12934",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "PCC-Q",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12936",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 12,
+					"Name": "S",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12938",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12940",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "f",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12942",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "光伏-A相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12944",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "光伏-B相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12946",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "光伏-C相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12948",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "光伏-A相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12950",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "光伏-B相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12952",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "光伏-C相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12954",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 21,
+					"Name": "光伏-Uab线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12956",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "光伏-Ubc线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12958",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "光伏-Uca线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12960",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 24,
+					"Name": "光伏-P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12962",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 25,
+					"Name": "光伏-Q",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12964",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 26,
+					"Name": "光伏-S",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12966",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 27,
+					"Name": "光伏-p",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12968",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 28,
+					"Name": "光伏-f",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12970",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 29,
+					"Name": "PCS-A相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12972",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 30,
+					"Name": "PCS-B相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12974",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 31,
+					"Name": "PCS-C相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12976",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 32,
+					"Name": "PCS-A相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12978",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 33,
+					"Name": "PCS-B相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12980",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 34,
+					"Name": "PCS-C相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12982",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 35,
+					"Name": "PCS-Uab线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12984",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 36,
+					"Name": "PCS-Ubc线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12986",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 37,
+					"Name": "PCS-Uca线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12988",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 38,
+					"Name": "PCS-P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12990",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 39,
+					"Name": "PCS-Q",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12992",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 40,
+					"Name": "PCS-S",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12994",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 41,
+					"Name": "PCS-p",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12996",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 42,
+					"Name": "PCS-f",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12998",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 43,
+					"Name": "柴油发电机-A相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13000",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 44,
+					"Name": "柴油发电机-B相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13002",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 45,
+					"Name": "柴油发电机-C相电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13004",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 46,
+					"Name": "柴油发电机-A相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13006",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 47,
+					"Name": "柴油发电机-B相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13008",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 48,
+					"Name": "柴油发电机-C相电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13010",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 49,
+					"Name": "柴油发电机-Uab线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13012",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 50,
+					"Name": "柴油发电机-Ubc线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13014",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 51,
+					"Name": "柴油发电机-Uca线电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13016",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 52,
+					"Name": "柴油发电机-P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13018",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "3",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 53,
+					"Name": "柴油发电机-Q",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13020",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "3",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 54,
+					"Name": "柴油发电机-S",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13022",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "3",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 55,
+					"Name": "柴油发电机-P",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13024",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "3",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 56,
+					"Name": "柴油发电机-f",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "13026",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "3",
+						"Type": "17"
+					}
+				},
+				{
+					"ID": 57,
+					"Name": "96点yt值1",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14288",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 58,
+					"Name": "96点yt值2",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14289",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 59,
+					"Name": "96点yt值3",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14290",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 60,
+					"Name": "96点yt值4",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14291",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 61,
+					"Name": "96点yt值5",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14292",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 62,
+					"Name": "96点yt值6",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14293",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 63,
+					"Name": "96点yt值7",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14294",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 64,
+					"Name": "96点yt值8",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14295",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 65,
+					"Name": "96点yt值9",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14296",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 66,
+					"Name": "96点yt值10",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14297",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 67,
+					"Name": "96点yt值11",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14298",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 68,
+					"Name": "96点yt值12",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14299",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 69,
+					"Name": "96点yt值13",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14300",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 70,
+					"Name": "96点yt值14",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14301",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 71,
+					"Name": "96点yt值15",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14302",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 72,
+					"Name": "96点yt值16",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14303",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 73,
+					"Name": "96点yt值17",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14304",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 74,
+					"Name": "96点yt值18",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14305",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 75,
+					"Name": "96点yt值19",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14306",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 76,
+					"Name": "96点yt值20",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14307",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 77,
+					"Name": "96点yt值21",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14308",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 78,
+					"Name": "96点yt值22",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14309",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 79,
+					"Name": "96点yt值23",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14310",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 80,
+					"Name": "96点yt值24",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14311",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 81,
+					"Name": "96点yt值25",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14312",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 82,
+					"Name": "96点yt值26",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14313",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 83,
+					"Name": "96点yt值27",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14314",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 84,
+					"Name": "96点yt值28",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14315",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 85,
+					"Name": "96点yt值29",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14316",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 86,
+					"Name": "96点yt值30",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14317",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 87,
+					"Name": "96点yt值31",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14318",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 88,
+					"Name": "96点yt值32",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14319",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 89,
+					"Name": "96点yt值33",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14320",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 90,
+					"Name": "96点yt值34",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14321",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 91,
+					"Name": "96点yt值35",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14322",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 92,
+					"Name": "96点yt值36",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14323",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 93,
+					"Name": "96点yt值37",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14324",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 94,
+					"Name": "96点yt值38",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14325",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 95,
+					"Name": "96点yt值39",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14326",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 96,
+					"Name": "96点yt值40",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14327",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 97,
+					"Name": "96点yt值41",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14328",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 98,
+					"Name": "96点yt值42",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14329",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 99,
+					"Name": "96点yt值43",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14330",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 100,
+					"Name": "96点yt值44",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14331",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 101,
+					"Name": "96点yt值45",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14332",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 102,
+					"Name": "96点yt值46",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14333",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 103,
+					"Name": "96点yt值47",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14334",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 104,
+					"Name": "96点yt值48",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14335",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 105,
+					"Name": "96点yt值49",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14336",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 106,
+					"Name": "96点yt值50",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14337",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "4",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 107,
+					"Name": "96点yt值51",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14338",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 108,
+					"Name": "96点yt值52",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14339",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 109,
+					"Name": "96点yt值53",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14340",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 110,
+					"Name": "96点yt值54",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14341",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 111,
+					"Name": "96点yt值55",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14342",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 112,
+					"Name": "96点yt值56",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14343",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 113,
+					"Name": "96点yt值57",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14344",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 114,
+					"Name": "96点yt值58",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14345",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 115,
+					"Name": "96点yt值59",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14346",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 116,
+					"Name": "96点yt值60",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14347",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 117,
+					"Name": "96点yt值61",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14348",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 118,
+					"Name": "96点yt值62",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14349",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 119,
+					"Name": "96点yt值63",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14350",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 120,
+					"Name": "96点yt值64",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14351",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 121,
+					"Name": "96点yt值65",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14352",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 122,
+					"Name": "96点yt值66",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14353",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 123,
+					"Name": "96点yt值67",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14354",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 124,
+					"Name": "96点yt值68",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14355",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 125,
+					"Name": "96点yt值69",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14356",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 126,
+					"Name": "96点yt值70",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14357",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 127,
+					"Name": "96点yt值71",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14358",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 128,
+					"Name": "96点yt值72",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14359",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 129,
+					"Name": "96点yt值73",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14360",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 130,
+					"Name": "96点yt值74",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14361",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 131,
+					"Name": "96点yt值75",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14362",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 132,
+					"Name": "96点yt值76",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14363",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 133,
+					"Name": "96点yt值77",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14364",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 134,
+					"Name": "96点yt值78",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14365",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 135,
+					"Name": "96点yt值79",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14366",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 136,
+					"Name": "96点yt值80",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14367",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 137,
+					"Name": "96点yt值81",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14368",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 138,
+					"Name": "96点yt值82",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14369",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 139,
+					"Name": "96点yt值83",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14370",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 140,
+					"Name": "96点yt值84",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14371",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 141,
+					"Name": "96点yt值85",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14372",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 142,
+					"Name": "96点yt值86",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14373",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 143,
+					"Name": "96点yt值87",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14374",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 144,
+					"Name": "96点yt值88",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14375",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 145,
+					"Name": "96点yt值89",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14376",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 146,
+					"Name": "96点yt值90",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14377",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 147,
+					"Name": "96点yt值91",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14378",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 148,
+					"Name": "96点yt值92",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14379",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 149,
+					"Name": "96点yt值93",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14380",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 150,
+					"Name": "96点yt值94",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14381",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 151,
+					"Name": "96点yt值95",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14382",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 152,
+					"Name": "96点yt值96",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14383",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 153,
+					"Name": "97削峰填谷时间间隔",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14384",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 154,
+					"Name": "98强制放电值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14385",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 155,
+					"Name": "99强制冲电值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14386",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 156,
+					"Name": "100孤网分二级负载电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14387",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "5",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 157,
+					"Name": "101孤网分三级负载电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14388",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 158,
+					"Name": "102功率调节步长",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14389",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 159,
+					"Name": "103pcc介入功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14390",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 160,
+					"Name": "104上级功率调度值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14391",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 161,
+					"Name": "105运行模式",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14392",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 162,
+					"Name": "备用106",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14393",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 163,
+					"Name": "备用107",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14394",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 164,
+					"Name": "备用108",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14395",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 165,
+					"Name": "备用109",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14396",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 166,
+					"Name": "110孤网充电中间值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14397",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 167,
+					"Name": "111孤网转并网电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14398",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 168,
+					"Name": "112PCS3充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14399",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 169,
+					"Name": "113PCS4充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14400",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 170,
+					"Name": "114PCS5充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14401",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 171,
+					"Name": "备用115",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14402",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 172,
+					"Name": "备用116",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14403",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 173,
+					"Name": "备用117",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14404",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 174,
+					"Name": "备用118",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14405",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 175,
+					"Name": "备用119",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14406",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 176,
+					"Name": "电池1总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14407",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 177,
+					"Name": "电池1总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14408",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 178,
+					"Name": "电池1总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14409",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 179,
+					"Name": "电池1总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14410",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 180,
+					"Name": "电池1总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14411",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 181,
+					"Name": "电池1总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14412",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 182,
+					"Name": "电池1总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14413",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 183,
+					"Name": "电池1总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14414",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 184,
+					"Name": "PCS1并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14415",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 185,
+					"Name": "PCS1并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14416",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 186,
+					"Name": "电池1单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14417",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 187,
+					"Name": "电池1单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14418",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 188,
+					"Name": "电池1单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14419",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 189,
+					"Name": "电池1单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14420",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 190,
+					"Name": "电池1单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14421",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 191,
+					"Name": "电池1单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14422",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 192,
+					"Name": "电池1单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14423",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 193,
+					"Name": "电池1单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14424",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 194,
+					"Name": "PCS1孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14425",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 195,
+					"Name": "PCS1孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14426",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 196,
+					"Name": "电池2总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14427",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 197,
+					"Name": "电池2总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14428",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 198,
+					"Name": "电池2总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14429",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 199,
+					"Name": "电池2总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14430",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 200,
+					"Name": "电池2总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14431",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 201,
+					"Name": "电池2总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14432",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 202,
+					"Name": "电池2总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14433",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 203,
+					"Name": "电池2总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14434",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 204,
+					"Name": "PCS2并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14435",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 205,
+					"Name": "PCS2并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14436",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 206,
+					"Name": "电池2单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14437",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 207,
+					"Name": "电池2单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14438",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 208,
+					"Name": "电池2单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14439",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 209,
+					"Name": "电池2单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14440",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 210,
+					"Name": "电池2单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14441",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 211,
+					"Name": "电池2单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14442",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 212,
+					"Name": "电池2单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14443",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 213,
+					"Name": "电池2单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14444",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 214,
+					"Name": "PCS2孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14445",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 215,
+					"Name": "PCS2孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14446",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 216,
+					"Name": "电池3总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14447",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 217,
+					"Name": "电池3总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14448",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 218,
+					"Name": "电池3总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14449",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 219,
+					"Name": "电池3总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14450",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 220,
+					"Name": "电池3总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14451",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 221,
+					"Name": "电池3总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14452",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 222,
+					"Name": "电池3总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14453",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 223,
+					"Name": "电池3总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14454",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 224,
+					"Name": "PCS3并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14455",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 225,
+					"Name": "PCS3并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14456",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 226,
+					"Name": "电池3单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14457",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 227,
+					"Name": "电池3单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14458",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 228,
+					"Name": "电池3单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14459",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 229,
+					"Name": "电池3单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14460",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 230,
+					"Name": "电池3单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14461",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 231,
+					"Name": "电池3单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14462",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 232,
+					"Name": "电池3单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14463",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 233,
+					"Name": "电池3单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14464",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 234,
+					"Name": "PCS3孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14465",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 235,
+					"Name": "PCS3孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14466",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "7",
+						"Type": "1"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 1,
+					"Name": "开关1合闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12688",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "开关1分闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12688",
+						"Bit": "8",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "开关2合闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12689",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "开关2分闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12689",
+						"Bit": "8",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "开关3合闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12690",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "开关3分闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12690",
+						"Bit": "8",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "开关4合闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12691",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "开关4分闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12691",
+						"Bit": "8",
+						"Funcode": "3",
+						"Partition": "8",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "并网启动成功",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12588",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "9",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "孤网启动成功",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12589",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "9",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "并转孤成功",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12590",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "9",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 12,
+					"Name": "孤转并成功",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12591",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "9",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "系统停运成功",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12592",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "9",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "并网启动失败",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12638",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "10",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "孤网启动失败",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12639",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "10",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "并转孤失败",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12640",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "10",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "孤转并失败",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12641",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "10",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "系统停运失败",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12642",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "10",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "自动运行遥信",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12598",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "12",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "PCS合PCC",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12748",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "11",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 21,
+					"Name": "PCS分PCC",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12749",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "11",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "并转孤分PCC",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12750",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "11",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "孤转并合PCC",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12751",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "11",
+						"Type": "0"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [
+				{
+					"ID": 1,
+					"Name": "合开关1",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12388",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "分开关1",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12388",
+						"Bit": "8",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "合开关2",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12389",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "分开关2",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12389",
+						"Bit": "8",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "合开关3",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12390",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "分开关3",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12390",
+						"Bit": "8",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "合开关4",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12391",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "分开关4",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12391",
+						"Bit": "8",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "并网启动",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12438",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0100",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "孤网启动",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12439",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x1001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "并转孤",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12440",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 12,
+					"Name": "孤转并",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12441",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "系统停运",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12442",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "备用",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12443",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "备用",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12444",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "备用",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12445",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "备用",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12446",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "备用",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12447",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0",
+						"Off": "0",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "启动自动运行",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12448",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "停止自动运行",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12449",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				}
+			],
+			"Yts": [
+				{
+					"ID": 21,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14288",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14289",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14290",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 24,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14291",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 25,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14292",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 26,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14293",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 27,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14294",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 28,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14295",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 29,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14296",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 30,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14297",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 31,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14298",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 32,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14299",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 33,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14300",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 34,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14301",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 35,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14302",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 36,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14303",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 37,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14304",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 38,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14305",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 39,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14306",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 40,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14307",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 41,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14308",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 42,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14309",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 43,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14310",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 44,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14311",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 45,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14312",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 46,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14313",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 47,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14314",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 48,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14315",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 49,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14316",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 50,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14317",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 51,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14318",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 52,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14319",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 53,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14320",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 54,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14321",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 55,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14322",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 56,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14323",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 57,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14324",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 58,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14325",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 59,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14326",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 60,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14327",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 61,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14328",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 62,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14329",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 63,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14330",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 64,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14331",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 65,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14332",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 66,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14333",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 67,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14334",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 68,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14335",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 69,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14336",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 70,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14337",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 71,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14338",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 72,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14339",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 73,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14340",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 74,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14341",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 75,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14342",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 76,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14343",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 77,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14344",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 78,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14345",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 79,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14346",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 80,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14347",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 81,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14348",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 82,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14349",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 83,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14350",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 84,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14351",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 85,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14352",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 86,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14353",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 87,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14354",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 88,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14355",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 89,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14356",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 90,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14357",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 91,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14358",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 92,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14359",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 93,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14360",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 94,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14361",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 95,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14362",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 96,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14363",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 97,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14364",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 98,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14365",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 99,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14366",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 100,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14367",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 101,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14368",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 102,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14369",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 103,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14370",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 104,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14371",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 105,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14372",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 106,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14373",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 107,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14374",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 108,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14375",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 109,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14376",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 110,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14377",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 111,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14378",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 112,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14379",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 113,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14380",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 114,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14381",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 115,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14382",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 116,
+					"Name": "96点yt值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14383",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 117,
+					"Name": "97削峰填谷时间间隔",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14384",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 118,
+					"Name": "98强制放电值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14385",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 119,
+					"Name": "99强制冲电值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14386",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 120,
+					"Name": "100孤网分二级负载电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14387",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 121,
+					"Name": "101孤网分三级负载电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14388",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 122,
+					"Name": "102功率调节步长",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14389",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 123,
+					"Name": "103pcc介入功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14390",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 124,
+					"Name": "104上级功率调度值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14391",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 125,
+					"Name": "105运行模式",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14392",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 126,
+					"Name": "备用106",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14393",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 127,
+					"Name": "备用107",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14394",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 128,
+					"Name": "备用108",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14395",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 129,
+					"Name": "备用109",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14396",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 130,
+					"Name": "110孤网充电中间值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14397",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 131,
+					"Name": "111孤网转并网电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14398",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 132,
+					"Name": "112PCS3充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14399",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 133,
+					"Name": "113PCS4充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14400",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 134,
+					"Name": "114PCS5充放电百分比",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14401",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 135,
+					"Name": "备用115",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14402",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 136,
+					"Name": "备用116",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14403",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 137,
+					"Name": "备用117",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14404",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 138,
+					"Name": "备用118",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14405",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 139,
+					"Name": "备用119",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14406",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 140,
+					"Name": "电池1总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14407",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 141,
+					"Name": "电池1总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14408",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 142,
+					"Name": "电池1总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14409",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 143,
+					"Name": "电池1总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14410",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 144,
+					"Name": "电池1总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14411",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 145,
+					"Name": "电池1总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14412",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 146,
+					"Name": "电池1总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14413",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 147,
+					"Name": "电池1总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14414",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 148,
+					"Name": "PCS1并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14415",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 149,
+					"Name": "PCS1并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14416",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 150,
+					"Name": "电池1单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14417",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 151,
+					"Name": "电池1单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14418",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 152,
+					"Name": "电池1单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14419",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 153,
+					"Name": "电池1单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14420",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 154,
+					"Name": "电池1单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14421",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 155,
+					"Name": "电池1单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14422",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 156,
+					"Name": "电池1单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14423",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 157,
+					"Name": "电池1单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14424",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 158,
+					"Name": "PCS1孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14425",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 159,
+					"Name": "PCS1孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14426",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 160,
+					"Name": "电池2总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14427",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 161,
+					"Name": "电池2总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14428",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 162,
+					"Name": "电池2总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14429",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 163,
+					"Name": "电池2总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14430",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 164,
+					"Name": "电池2总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14431",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 165,
+					"Name": "电池2总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14432",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 166,
+					"Name": "电池2总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14433",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 167,
+					"Name": "电池2总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14434",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 168,
+					"Name": "PCS2并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14435",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 169,
+					"Name": "PCS2并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14436",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 170,
+					"Name": "电池2单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14437",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 171,
+					"Name": "电池2单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14438",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 172,
+					"Name": "电池2单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14439",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 173,
+					"Name": "电池2单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14440",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 174,
+					"Name": "电池2单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14441",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 175,
+					"Name": "电池2单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14442",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 176,
+					"Name": "电池2单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14443",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 177,
+					"Name": "电池2单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14444",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 178,
+					"Name": "PCS2孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14445",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 179,
+					"Name": "PCS2孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14446",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 180,
+					"Name": "电池3总压高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14447",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 181,
+					"Name": "电池3总压高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14448",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 182,
+					"Name": "电池3总压高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14449",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 183,
+					"Name": "电池3总压高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14450",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 184,
+					"Name": "电池3总压低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14451",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 185,
+					"Name": "电池3总压低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14452",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 186,
+					"Name": "电池3总压低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14453",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 187,
+					"Name": "电池3总压低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14454",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 188,
+					"Name": "PCS3并网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14455",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 189,
+					"Name": "PCS3并网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14456",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 190,
+					"Name": "电池3单节高极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14457",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 191,
+					"Name": "电池3单节高极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14458",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 192,
+					"Name": "电池3单节高告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14459",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 193,
+					"Name": "电池3单节高告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14460",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 194,
+					"Name": "电池3单节低告警回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14461",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 195,
+					"Name": "电池3单节低告警",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14462",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 196,
+					"Name": "电池3单节低极限回差",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14463",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 197,
+					"Name": "电池3单节低极限",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14464",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 198,
+					"Name": "PCS3孤网最大充电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14465",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				},
+				{
+					"ID": 199,
+					"Name": "PCS3孤网最大放电功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "14466",
+						"Bit": "0",
+						"Funcode": "6",
+						"Type": "1"
+					}
+				}
+			]
+		}
+	],
+	"Uptable": null
+}

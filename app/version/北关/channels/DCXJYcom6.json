@@ -1,0 +1,1631 @@
+{
+	"ID": 6,
+	"Name": "DCXJYcom6",
+	"Crc": "低",
+	"Source": true,
+	"Port": {
+		"Ptype": "com",
+		"Conntype": "",
+		"Name": "/dev/ttyS5",
+		"Baud": 9600,
+		"Size": 1024,
+		"ReadTimeout": 100,
+		"Parity": "N",
+		"StopBits": 2,
+		"Channel": "",
+		"Ip": "",
+		"Portnum": ""
+	},
+	"Potocol": {
+		"Name": "MODBUS",
+		"Data": null
+	},
+	"Device": [
+		{
+			"ID": 1,
+			"Tnumber": 9,
+			"Name": "BMS",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "DCXJYcom6",
+			"ChannelID": 6,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "一组电池环境温度1",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "256",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "一组电池环境温度2",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "257",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "一组电池单体电压最大值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "258",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "一组电池电压最大值单体号",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "259",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "一组电池单体电压最小值",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "260",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "一组电池电压最小值单体号",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "261",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "一组电池第001节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "262",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "一组电池第002节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "263",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "一组电池第003节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "264",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "一组电池第004节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "265",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "一组电池第005节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "266",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 12,
+					"Name": "一组电池第006节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "267",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "一组电池第007节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "268",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "一组电池第008节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "269",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "一组电池第009节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "270",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "一组电池第010节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "271",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "一组电池第011节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "272",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "一组电池第012节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "273",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "一组电池第013节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "274",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "一组电池第014节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "275",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 21,
+					"Name": "一组电池第015节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "276",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "一组电池第016节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "277",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "一组电池第017节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "278",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 24,
+					"Name": "一组电池第018节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "279",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 25,
+					"Name": "一组电池第019节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "280",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 26,
+					"Name": "一组电池第020节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "281",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 27,
+					"Name": "一组电池第021节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "282",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 28,
+					"Name": "一组电池第022节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "283",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 29,
+					"Name": "一组电池第023节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "284",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 30,
+					"Name": "一组电池第024节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "285",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 31,
+					"Name": "一组电池第025节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "286",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 32,
+					"Name": "一组电池第026节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "287",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 33,
+					"Name": "一组电池第027节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "288",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 34,
+					"Name": "一组电池第028节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "289",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 35,
+					"Name": "一组电池第029节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "290",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 36,
+					"Name": "一组电池第030节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "291",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 37,
+					"Name": "一组电池第031节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "292",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 38,
+					"Name": "一组电池第032节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "293",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 39,
+					"Name": "一组电池第033节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "294",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 40,
+					"Name": "一组电池第034节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "295",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 41,
+					"Name": "一组电池第035节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "296",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 42,
+					"Name": "一组电池第036节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "297",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 43,
+					"Name": "一组电池第037节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "298",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 44,
+					"Name": "一组电池第038节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "299",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 45,
+					"Name": "一组电池第039节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "300",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 46,
+					"Name": "一组电池第040节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "301",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 47,
+					"Name": "一组电池第041节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "302",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 48,
+					"Name": "一组电池第042节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "303",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 49,
+					"Name": "一组电池第043节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "304",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 50,
+					"Name": "一组电池第044节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "305",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 51,
+					"Name": "一组电池第045节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "306",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 52,
+					"Name": "一组电池第046节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "307",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 53,
+					"Name": "一组电池第047节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "308",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 54,
+					"Name": "一组电池第048节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "309",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 55,
+					"Name": "一组电池第049节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "310",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 56,
+					"Name": "一组电池第050节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "311",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 57,
+					"Name": "一组电池第051节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "312",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 58,
+					"Name": "一组电池第052节电池电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 0.001,
+					"Data": {
+						"Addr": "313",
+						"Bit": "0",
+						"Funcode": "4",
+						"Partition": "1",
+						"Type": "3"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 1,
+					"Name": "1#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "2#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "1",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "3#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "4#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "3",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "5#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "4",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "6#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "5",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "7#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "6",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "8#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "7",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "9#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "10#电池巡检通信中断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "一组电池001#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "10",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 12,
+					"Name": "一组电池002#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "11",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "一组电池003#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "12",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "一组电池004#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "13",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "一组电池005#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "14",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "一组电池006#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4096",
+						"Bit": "15",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "一组电池007#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "一组电池008#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "1",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "一组电池009#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "一组电池010#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "3",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 21,
+					"Name": "一组电池011#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "4",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "一组电池012#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "5",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "一组电池013#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "6",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 24,
+					"Name": "一组电池014#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "7",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 25,
+					"Name": "一组电池015#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 26,
+					"Name": "一组电池016#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 27,
+					"Name": "一组电池017#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "10",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 28,
+					"Name": "一组电池018#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "11",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 29,
+					"Name": "一组电池019#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "12",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 30,
+					"Name": "一组电池020#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "13",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 31,
+					"Name": "一组电池021#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "14",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 32,
+					"Name": "一组电池022#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4097",
+						"Bit": "15",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 33,
+					"Name": "一组电池023#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 34,
+					"Name": "一组电池024#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "1",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 35,
+					"Name": "一组电池025#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 36,
+					"Name": "一组电池026#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "3",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 37,
+					"Name": "一组电池027#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "4",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 38,
+					"Name": "一组电池028#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "5",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 39,
+					"Name": "一组电池029#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "6",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 40,
+					"Name": "一组电池030#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "7",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 41,
+					"Name": "一组电池031#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 42,
+					"Name": "一组电池032#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 43,
+					"Name": "一组电池033#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "10",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 44,
+					"Name": "一组电池034#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "11",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 45,
+					"Name": "一组电池035#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "12",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 46,
+					"Name": "一组电池036#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "13",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 47,
+					"Name": "一组电池037#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "14",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 48,
+					"Name": "一组电池038#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4098",
+						"Bit": "15",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 49,
+					"Name": "一组电池039#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "0",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 50,
+					"Name": "一组电池040#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "1",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 51,
+					"Name": "一组电池041#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "2",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 52,
+					"Name": "一组电池042#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "3",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 53,
+					"Name": "一组电池043#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "4",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 54,
+					"Name": "一组电池044#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "5",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 55,
+					"Name": "一组电池045#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "6",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 56,
+					"Name": "一组电池046#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "7",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 57,
+					"Name": "一组电池047#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "8",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 58,
+					"Name": "一组电池048#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "9",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 59,
+					"Name": "一组电池049#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "10",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 60,
+					"Name": "一组电池050#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "11",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 61,
+					"Name": "一组电池051#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "12",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 62,
+					"Name": "一组电池052#单元电压异常",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4099",
+						"Bit": "13",
+						"Funcode": "2",
+						"Partition": "2",
+						"Type": "0"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [
+				{
+					"ID": 83,
+					"Name": "1#光伏逆变器开机",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "40200",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 84,
+					"Name": "1#光伏逆变器关机",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "40201",
+						"Bit": "0",
+						"Funcode": "6",
+						"On": "0x0001",
+						"Off": "0x0000",
+						"Type": "3"
+					}
+				}
+			],
+			"Yts": []
+		}
+	],
+	"Uptable": null
+}

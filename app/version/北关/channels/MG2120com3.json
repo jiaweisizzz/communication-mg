@@ -1,0 +1,354 @@
+{
+	"ID": 3,
+	"Name": "MG2120com3",
+	"Crc": "低",
+	"Source": true,
+	"Port": {
+		"Ptype": "com",
+		"Conntype": "",
+		"Name": "/dev/ttyS2",
+		"Baud": 9600,
+		"Size": 1024,
+		"ReadTimeout": 100,
+		"Parity": "N",
+		"StopBits": 2,
+		"Channel": "",
+		"Ip": "",
+		"Portnum": ""
+	},
+	"Potocol": {
+		"Name": "MODBUS",
+		"Data": null
+	},
+	"Device": [
+		{
+			"ID": 1,
+			"Tnumber": 12,
+			"Name": "2120",
+			"Time": "0001-01-01T00:00:00Z",
+			"Channel": "MG2120com3",
+			"ChannelID": 3,
+			"Status": true,
+			"Ycs": [
+				{
+					"ID": 1,
+					"Name": "A相相电流Ia",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "2",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 2,
+					"Name": "B相相电流Ib",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "3",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 3,
+					"Name": "C相相电流Ic",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "4",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 4,
+					"Name": "零序电流Io",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "5",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 5,
+					"Name": "Uab电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "6",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 6,
+					"Name": "Ubc电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "7",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 7,
+					"Name": "Uo电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "8",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 8,
+					"Name": "有功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "9",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 9,
+					"Name": "无功功率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "10",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 10,
+					"Name": "功率因数",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "11",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				},
+				{
+					"ID": 11,
+					"Name": "频率",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "12",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "1",
+						"Type": "3"
+					}
+				}
+			],
+			"Yxs": [
+				{
+					"ID": 12,
+					"Name": "合闸位置",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 13,
+					"Name": "控制回路断线",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "1",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 14,
+					"Name": "遥控投入",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "2",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 15,
+					"Name": "速断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "12",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 16,
+					"Name": "限时速断",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "13",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 17,
+					"Name": "过流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "14",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 18,
+					"Name": "过负荷",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "0",
+						"Bit": "15",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 19,
+					"Name": "零序电流",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "0",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 20,
+					"Name": "零序电压",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "1",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 21,
+					"Name": "重合闸",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "2",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 22,
+					"Name": "后加速",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "3",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 23,
+					"Name": "低频减载",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "4",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				},
+				{
+					"ID": 24,
+					"Name": "PT断线",
+					"Time": "0001-01-01T00:00:00Z",
+					"Scale": 1,
+					"Data": {
+						"Addr": "1",
+						"Bit": "5",
+						"Funcode": "3",
+						"Partition": "2",
+						"Type": "0"
+					}
+				}
+			],
+			"Yms": [],
+			"Yks": [],
+			"Yts": []
+		}
+	],
+	"Uptable": null
+}

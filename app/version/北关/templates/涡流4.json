@@ -1,0 +1,1 @@
+{"ID":0,"Name":"涡流4","Time":"0001-01-01T00:00:00Z","Potocol":"MODBUS","Channel":"","Status":false,"Ycs":[{"ID":1,"Name":"里炮高效农业4#-涡旋流量计瞬时流量","Time":"0001-01-01T00:00:00Z","Scale":1,"Data":{"Addr":"20","Bit":"0","Funcode":"4","Partition":"1","Type":"17"}}],"Yxs":[],"Yms":[],"Yks":[],"Yts":[]}
